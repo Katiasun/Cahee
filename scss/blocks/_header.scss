@@ -1,0 +1,106 @@
+.header {
+  background: url("..images/img/BG-mleko.png");
+  padding-top: 65px;
+  padding-bottom: 70px;
+  &__freash {
+  }
+
+  &__aboutus {
+  }
+}
+
+.logo {
+  &__img {
+  }
+}
+.manu {
+  list-style: none;
+  &__list {
+  }
+
+  &__spisok {
+  }
+
+  &__link {
+    font-family: $raleway;
+    color: $text-black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  &__link:hover {
+    text-decoration: underline 2px $orange;
+  }
+}
+.spisok {
+  &__link {
+  }
+}
+.list {
+  &__spisok {
+  }
+}
+.link {
+}
+
+.fresh {
+  font-family: $raleway;
+  color: $text-black;
+}
+.fresh h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+}
+.fresh p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+}
+.button {
+  &_1 {
+    background-color: $orange;
+    font-family: $raleway;
+    color: white;
+    border: none;
+    padding: 16px 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &_1:hover {
+    background-color: orangered;
+    color: $lighter-gray;
+  }
+}
+.aboutus {
+}
+.malina {
+  background: url("../images/img/plate.png");
+}
+
+.card {
+  font-family: $raleway;
+  color: white;
+
+  &_1 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 106px;
+  }
+  &_1 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+.scroll__header {
+  margin: 0 auto;
+}
