@@ -1,0 +1,17 @@
+.footer {
+  font-family: $raleway;
+  color: $lighter-gray;
+  background: #262626;
+  padding-top: 31px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-around;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer span {
+  color: $coral;
+  font-weight: bold;
+}

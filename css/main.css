@@ -295,6 +295,28 @@
           box-shadow: 0 0 15px #81a80b;
 }
 
+.footer {
+  font-family: "Raleway", sans-serif;
+  color: #b9b9b9;
+  background: #262626;
+  padding-top: 31px;
+  padding-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footer span {
+  color: #ff2b58;
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
