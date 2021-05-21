@@ -80,9 +80,12 @@
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 367px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
   }
   &_1:hover {
     background-color: orangered;
+    box-shadow: 0 0 20px rgb(238, 133, 13);
     color: $lighter-gray;
   }
 }
