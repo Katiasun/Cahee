@@ -17,6 +17,10 @@
   margin-bottom: 228px;
 }
 
+.manu {
+  margin-top: -125px;
+}
+
 .manu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,11 +103,6 @@
   background: #00c4c4;
 }
 
-.aboutus__malina {
-  background-color: #96b92c;
-  background: url("./../images/img/plate.png") center center no-repeat;
-}
-
 .aboutus__card {
   font-family: "Raleway", sans-serif;
   color: white;
@@ -123,6 +122,58 @@
   font-weight: 300;
   font-size: 17px;
   line-height: 27px;
+}
+
+.sevice {
+  background: #70bfff;
+  padding-top: 90px;
+  padding-bottom: 174px;
+}
+
+.boxes {
+  margin-left: 277px;
+}
+
+.boxes__box {
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  padding: 39px 70px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.boxes__box:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.boxes__box:hover {
+  -webkit-box-shadow: 0 0 20px #f7880a;
+          box-shadow: 0 0 20px #f7880a;
+  background-color: yellow;
+}
+
+.boxes__link {
+  color: #262626;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.our {
+  font-family: "Raleway", sans-serif;
+}
+
+.our_ser h1 {
+  z-index: 2;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  text-align: center;
 }
 
 * {

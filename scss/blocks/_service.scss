@@ -1,0 +1,53 @@
+.sevice {
+  background: $blue;
+  padding-top: 90px;
+  padding-bottom: 174px;
+}
+.container {
+  &_2 {
+  }
+}
+
+.boxes {
+  margin-left: 277px;
+  &__box {
+    font-family: $raleway;
+    background-color: $white;
+    padding: 39px 70px;
+    transition: all 0.5s ease;
+  }
+  &__box:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  &__box:hover {
+    box-shadow: 0 0 20px rgb(247, 136, 10);
+    background-color: yellow;
+  }
+}
+.boxes {
+  &__link {
+    color: $text-black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+.our {
+  font-family: $raleway;
+  &_ser h1 {
+    z-index: 2;
+    color: $white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 106px;
+
+    text-align: center;
+  }
+}
+.tomatose {
+}
