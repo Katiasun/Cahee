@@ -1,0 +1,134 @@
+.header {
+  background: url("./../images/img/BG-mleko.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 65px;
+  padding-bottom: 70px;
+}
+
+.header__scroll img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 257px;
+  margin-bottom: 70px;
+}
+
+.logo__img {
+  display: block;
+  margin-bottom: 228px;
+}
+
+.manu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.manu__spisok {
+  list-style: none;
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.manu__spisok:not(:last-child) {
+  padding-right: 36px;
+}
+
+.manu__link {
+  font-family: "Raleway", sans-serif;
+  color: #262626;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.manu__link:hover {
+  -webkit-text-decoration: overline 3px #ff6033;
+          text-decoration: overline 3px #ff6033;
+  text-shadow: 1px 2px 2px #ff9c07;
+}
+
+.fresh {
+  font-family: "Raleway", sans-serif;
+  color: #262626;
+}
+
+.fresh h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 15px;
+}
+
+.fresh p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 28px;
+}
+
+.button_1 {
+  background-color: #ff6033;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  border: none;
+  padding: 16px 25px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 367px;
+}
+
+.button_1:hover {
+  background-color: orangered;
+  color: #b9b9b9;
+}
+
+.aboutus {
+  background: #00c4c4;
+}
+
+.aboutus__malina {
+  background-color: #96b92c;
+  background: url("./../images/img/plate.png") center center no-repeat;
+}
+
+.aboutus__card {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-top: 165px;
+  margin-bottom: 199px;
+}
+
+.aboutus__card h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+}
+
+.aboutus__card p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

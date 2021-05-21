@@ -1,0 +1,27 @@
+.aboutus {
+  background: #00c4c4;
+
+  &__malina {
+    background-color: $green;
+    background: url("./../images/img/plate.png") center center no-repeat;
+  }
+
+  &__card {
+    font-family: $raleway;
+    color: white;
+    margin-top: 165px;
+    margin-bottom: 199px;
+  }
+  &__card h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 106px;
+  }
+  &__card p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
