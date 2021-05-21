@@ -295,6 +295,98 @@
           box-shadow: 0 0 15px #81a80b;
 }
 
+.contact {
+  font-family: "Raleway", sans-serif;
+  color: #262626;
+  background: url("./../images/img/BG-contact.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-style: normal;
+  padding-top: 92px;
+  padding-bottom: 93px;
+}
+
+.contact h1 {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.field__formularz {
+  display: block;
+}
+
+.formularz input {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  background: rgba(0, 196, 196, 0.5);
+  border: none;
+  padding: 16px 422px 16px 17px;
+}
+
+.formularz input:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.formularz input:active {
+  border-left: 3px ridge #0a617c;
+  background: rgba(41, 218, 50, 0.5);
+}
+
+.bigtext {
+  padding: 16px 417px 216px 22px;
+}
+
+.send {
+  background-color: #70bfff;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.send:hover {
+  background-color: #5585a2;
+  -webkit-box-shadow: 0 0 20px #0db9ee;
+          box-shadow: 0 0 20px #0db9ee;
+}
+
+.addres {
+  font-family: "Raleway", sans-serif;
+  counter-reset: #262626;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.addres:not(:last-child) {
+  margin-bottom: 16px;
+}
+
 .footer {
   font-family: "Raleway", sans-serif;
   color: #b9b9b9;
