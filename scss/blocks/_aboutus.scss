@@ -1,6 +1,9 @@
 .aboutus {
-  background: #00c4c4;
-
+  background: #00c4c4 url("../images/img/plate.png") calc(50vw - 666px) center
+    center no-repeat;
+  @media (max-width: 575.98px) {
+    background-image: none;
+  }
   &__malina {
   }
 

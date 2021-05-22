@@ -46,11 +46,12 @@ input:hover,
   border-left: 3px ridge rgb(10, 97, 124);
   background: rgba(41, 218, 50, 0.5);
 }
-.textarea .bigtext {
+.bigtext {
   background: rgba(0, 196, 196, 0.5);
   border: none;
   padding: 16px 417px 216px 22px;
-  width: 100%;
+
+  height: 250px;
 }
 .send {
   background-color: $blue;

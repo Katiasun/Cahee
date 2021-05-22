@@ -1,7 +1,12 @@
 .sevice {
-  background: $blue;
-  padding-top: 90px;
-  padding-bottom: 174px;
+  background: $blue url("/images/img/Tomatoes.png") right center no-repeat;
+
+  padding: 90px 180px 174px 0;
+  @media (max-width: 767.98px) {
+    &_ser h1 {
+      text-align: center;
+    }
+  }
 }
 .container {
   &_2 {
@@ -9,10 +14,11 @@
 }
 
 .boxes {
-  margin-left: 277px;
+  margin-left: 200px;
+  margin-right: 99px;
   &__box {
     font-family: $raleway;
-    background-color: $white;
+    // background-color: $white;
     padding: 39px 70px;
     transition: all 0.5s ease;
   }
@@ -21,12 +27,13 @@
   }
   &__box:hover {
     box-shadow: 0 0 20px rgb(247, 136, 10);
-    background-color: yellow;
+    background-color: $white;
   }
 }
 .boxes {
   &__link {
     color: $text-black;
+    font-family: $raleway;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -34,6 +41,14 @@
     line-height: 23px;
     text-align: center;
     margin-right: 97px;
+  }
+  &__text_1 {
+  }
+  &__text_2 {
+  }
+  &__text_3 {
+  }
+  &__text_4 {
   }
 }
 
@@ -46,9 +61,10 @@
     font-weight: bold;
     font-size: 90px;
     line-height: 106px;
-
+    text-align: right;
     text-align: center;
   }
 }
 .tomatose {
+  // background-image: url("../images/img/Tomatoes.png");
 }
