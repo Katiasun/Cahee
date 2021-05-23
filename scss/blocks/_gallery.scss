@@ -20,7 +20,12 @@
   line-height: 20px;
   margin-bottom: 50px;
 }
-.gallery__img {
+.gallery__img img {
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+.gallery__img img:hover {
+  box-shadow: 0 0 30px rgb(238, 133, 13);
 }
 
 .gallery__button {

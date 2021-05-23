@@ -70,9 +70,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12 col-lg-6">
-              <div class="aboutus__malina">
-                <!-- <img src="images/img/plate.png" alt="plate" /> -->
-              </div>
+            
             </div>
             <div class="col-12 col-md-6 offset-md-6 col-xl-5 offset-xl-7">
               <div class="aboutus__card">
@@ -165,20 +163,21 @@
             exercitation <br />
             ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-<div class="gallery__img">
-  <div class="row">
-              <div class="col-8">
-               
+       <div class="gallery__img">
+          <div class="row ">
+              <div class="col-12 col-md-8 ">
                   <img src="images/img/Image-5.jpg" alt="peach" />
-               
               </div>
-              <div class="col-4">
-                  <div class="col-12">
+              <div class="col-12 col-md-4 ">
+                <div class="row">
+                  <div class="col-6 col-md-12">
                     <img src="images/img/Image-4.jpg" alt="" />
                 </div>
-                  <div class="col-12">
+                  <div class="col-6 col-md-12">
                     <img src="images/img/Image-3.jpg" alt="" />
                   </div>
+                </div>
+                  
               </div>
           </div>
           <div class="row">
@@ -205,13 +204,20 @@
             ad minim veniam.
           </p>
           <form action="#" class="form" method="GET">
-            <input
+            <div class="row">
+              <div class="col-12 col-sm"><input
               class="input"
               type="text"
               name="text"
               placeholder="Your email address..."
             />
-            <button class="knopka" type="submit">subscribe</button>
+          </div>
+              <div class="col-12 col-sm-auto">
+                <button class="knopka" type="submit">subscribe</button>
+              </div>
+            </div>
+            
+            
           </form>
         </div>
       </section>
@@ -225,53 +231,54 @@
             irure <br />
             dolor in reprehenderit in voluptate velit.
           </p>
-          <div class="row">
-            <div class="bigbox">
-              <div class="col-4">
-                <div class="cards">
-                  <div class="data">
-                    <div class="number">
-                      <h6>20</h6>
-                      <p>NOV</p>
-                    </div>
-                  </div>
-                  <div class="bigbox__info">
-                    <h4>Green Smoothies: Too Much of a Good Thing?</h4>
-                    <p>By Auskteez - 2 hours ago</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="cards">
-                  <div class="data">
-                    <div class="number">
-                      <h6>14</h6>
-                      <p>NOV</p>
-                    </div>
-                  </div>
-                  <div class="bigbox__info">
-                    <h4>Growing Food and a “Thirst” for Innovation</h4>
-                    <p>By Auskteez - 3 hours ago</p>
+          <div class="blog-posts">
+            <div class="row">
+            <div class="col-12 col-lg-4">
+             <div class="card card-1">
+               <div class="data">
+                 <div class="number">
+                   <h6>20</h6>
+                   <p>Nov</p>
+                 </div>
+               </div>
+               <div class="blog-posts__info">
+                 <h4>Green Smoothies: Too Much of a Good Thing?</h4>
+                 <p>By Auskteez - 2 hours ago</p>
+               </div>
+             </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card card-2">
+                <div class="data">
+                  <div class="number">
+                    <h6>14</h6>
+                    <p>Nov</p>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="cards">
-                  <div class="data">
-                    <div class="number">
-                      <h6>10</h6>
-                      <p>NOV</p>
-                    </div>
-                  </div>
-                  <div class="bigbox__info">
-                    <h4>Pesticides & Food: What You Need to Know</h4>
-                    <p>By Auskteez - 6 hours ago</p>
-                  </div>
+                <div class="blog-posts__info">
+                  <h4>Growing Food and a “Thirst” for Innovation</h4>
+                  <p>By Auskteez - 3 hours ago</p>
                 </div>
               </div>
             </div>
-          </div>
-          <button class="view">VIEW MORE</button>
+            <div class="col-12 col-lg-4">
+              <div class="card card-3">
+                <div class="data">
+                  <div class="number">
+                    <h6>10</h6>
+                    <p>Nov</p>
+                  </div>
+                </div>
+                <div class="blog-posts__info">
+                  <h4>Pesticides & Food: What You Need to Know</h4>
+                  <p>By Auskteez - 6 hours ago</p>
+                </div>
+              </div>
+            </div>
+                </div>
+              </div> 
+              <button class="view">VIEW MORE</button>
+            </div>
         </div>
       </section>
       <section class="contact">
@@ -281,9 +288,9 @@
             For new projects, ideas, business or anything <br />
             you'd like to discuss, contact with me!
           </p>
-          <div class="row">
-            <div class="field">
-              <div class="col-7">
+           <div class="field">
+            <div class="row">
+              <div class="col-12 col-lg-6 order-2 order-lg-1">
                 <form
                   class="formularz field__formularz"
                   action="#"
@@ -296,7 +303,7 @@
                     name="text"
                     placeholder="Your phone number..."
                   />
-                  <input
+                  <textarea
                     name="text"
                     cols="50"
                     class="bigtext"
@@ -304,12 +311,14 @@
                     name="text"
                     placeholder="Your phone number..."
                     rows="10"
-                  ></input>
-
-                  <button class="send" type="submit">Send</button>
+                  ></textarea>
+               <div class="but">
+                     <button class="but__send" type="submit">Send</button>
+                </div>
                 </form>
               </div>
-              <div class="col-4 offset-1">
+
+              <div class="col-12 col-lg-5 offset-lg-1 order-1 order-lg-2">
                 <div class="dozwon">
                   <div class="addres">
                     <h6>
@@ -321,7 +330,6 @@
                   <div class="addres">
                     <h6>
                       <span class="informacja">Email</span>
-
                       <br />
                       cahee@domain.com
                     </h6>
@@ -335,26 +343,26 @@
                   </div>
                 </div>
               </div>
-            </div>
           </div>
+        </div>
         </div>
       </section>
       <footer class="footer">
         <div class="container">
 <div class="row">
-  <div class="col-auto">
+  <div class="col-3">
             <div class="footer__left">
               &copy; 2015 Company. All right reserved.
             </div>  
           </div>
-           <div class="col-auto">
+           <div class="col-4">
              <div class="footer__center justify-content-between">
                <a href="#">
                <img src="images/img/logo-footer.png" alt="logo" />
               </a>
             </div>
            </div>
-        <div class="col-auto">
+        <div class="col-3">
           <div class="footer__right">Made with <span>love</span> by Auskteez
           </div>
         </div>

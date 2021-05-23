@@ -117,10 +117,10 @@
 }
 
 .aboutus {
-  background: #00c4c4 url("../images/img/plate.png") calc(50vw - 666px) center center no-repeat;
+  background: #00c4c4 url("/images/img/plate.png") left center no-repeat;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
   .aboutus {
     background-image: none;
   }
@@ -243,6 +243,17 @@
   margin-bottom: 50px;
 }
 
+.gallery__img img {
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.gallery__img img:hover {
+  -webkit-box-shadow: 0 0 30px #ee850d;
+          box-shadow: 0 0 30px #ee850d;
+}
+
 .gallery__button {
   background: #5585a2;
   color: #ffffff;
@@ -273,6 +284,12 @@
   padding-bottom: 144px;
   font-family: "Raleway", sans-serif;
   color: #262626;
+}
+
+@media (max-width: 991.98px) {
+  .subscribe {
+    background: none;
+  }
 }
 
 .subscribe h1 {
@@ -309,9 +326,20 @@
   text-transform: uppercase;
   padding: 16px 26px;
   border: none;
-  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
+}
+
+@media (max-width: 991.98px) {
+  .knopka {
+    margin-top: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .knopka:hover {
@@ -325,8 +353,7 @@
   font-family: "Raleway", sans-serif;
   color: #ffffff;
   text-align: center;
-  padding-top: 92px;
-  padding-bottom: 93px;
+  padding: 92px 180px 93px 180px;
 }
 
 .blog h1 {
@@ -343,6 +370,114 @@
   font-size: 17px;
   line-height: 25px;
   margin-bottom: 50px;
+}
+
+.blog-posts {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.blog-posts__info h4 {
+  margin-top: 142px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.blog-posts__info p {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.card {
+  padding: 30px 40px 20px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.number {
+  width: 60px;
+  height: 60px;
+  background: rgba(38, 38, 38, 0.5);
+  border-radius: 5px;
+  padding: 8px 10px 9px 10px;
+}
+
+.number h6,
+.number p {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.number p {
+  margin-top: 9px;
+}
+
+.card-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9))), url("/images/img/thumbnail.png") center center no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("/images/img/thumbnail.png") center center no-repeat;
+  background-size: cover;
+}
+
+.card-1:hover {
+  -webkit-box-shadow: 0 0 20px #ee0d6b;
+          box-shadow: 0 0 20px #ee0d6b;
+}
+
+.card-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9))), url("/images/img/thumbnail (1).png") center center no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("/images/img/thumbnail (1).png") center center no-repeat;
+  background-size: cover;
+}
+
+.card-2:hover {
+  -webkit-box-shadow: 0 0 20px #ee0d6b;
+          box-shadow: 0 0 20px #ee0d6b;
+}
+
+.card-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9))), url("/images/img/thumbnail (2).png") center center no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("/images/img/thumbnail (2).png") center center no-repeat;
+  background-size: cover;
+}
+
+.card-3:hover {
+  -webkit-box-shadow: 0 0 20px #ee0d6b;
+          box-shadow: 0 0 20px #ee0d6b;
+}
+
+.view {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  background: #f72b3b;
+  display: block;
+  border: none;
+  cursor: pointer;
+  padding: 16px 43px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.view:hover {
+  background-color: #ff2b58;
+  -webkit-box-shadow: 0 0 20px #ee0d6b;
+          box-shadow: 0 0 20px #ee0d6b;
 }
 
 .contact {
@@ -400,18 +535,20 @@ input:hover,
 }
 
 .bigtext {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
   background: rgba(0, 196, 196, 0.5);
   border: none;
-  padding: 16px 417px 216px 22px;
+  padding: 16px 217px 216px 22px;
   height: 250px;
 }
 
-.send {
+.but__send {
   background-color: #70bfff;
   font-family: "Raleway", sans-serif;
   color: white;
   border: none;
-  padding: 10px 25px;
+  padding: 15px 45px;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -423,32 +560,52 @@ input:hover,
   transition: all 0.5s ease-in;
 }
 
-.send:hover {
+.but__send:hover {
   background-color: #5585a2;
   -webkit-box-shadow: 0 0 20px #0db9ee;
           box-shadow: 0 0 20px #0db9ee;
 }
 
 .dozwon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  text-align: left;
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .dozwon {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .dozwon {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .addres {
   font-family: "Raleway", sans-serif;
   counter-reset: #262626;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 17px;
   line-height: 25px;
+}
+
+@media (max-width: 767.98px) {
+  .addres {
+    text-align: center;
+  }
+}
+
+.addres span {
+  font-weight: bold;
 }
 
 .addres:not(:last-child) {
@@ -465,6 +622,10 @@ input:hover,
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
+}
+
+.footer__center {
+  margin: 0 auto;
 }
 
 .footer span {

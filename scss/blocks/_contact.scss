@@ -47,18 +47,20 @@ input:hover,
   background: rgba(41, 218, 50, 0.5);
 }
 .bigtext {
+  font-family: $raleway;
+  color: $white;
   background: rgba(0, 196, 196, 0.5);
   border: none;
-  padding: 16px 417px 216px 22px;
+  padding: 16px 217px 216px 22px;
 
   height: 250px;
 }
-.send {
+.but__send {
   background-color: $blue;
   font-family: $raleway;
   color: white;
   border: none;
-  padding: 10px 25px;
+  padding: 15px 45px;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -68,22 +70,34 @@ input:hover,
   cursor: pointer;
   transition: all 0.5s ease-in;
 }
-.send:hover {
+.but__send:hover {
   background-color: #5585a2;
   box-shadow: 0 0 20px rgb(13, 185, 238);
 }
 .dozwon {
-  display: flex;
-  flex-direction: column;
   justify-content: flex-start;
+  text-align: left;
+  cursor: pointer;
+  @media (max-width: 991.98px) {
+    margin-bottom: 30px;
+  }
+  @media (max-width: $sm) {
+    flex-direction: row;
+  }
 }
 .addres {
   font-family: $raleway;
   counter-reset: $text-black;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 17px;
   line-height: 25px;
+  @media (max-width: $sm) {
+    text-align: center;
+  }
+}
+.addres span {
+  font-weight: bold;
 }
 .addres:not(:last-child) {
   margin-bottom: 16px;
