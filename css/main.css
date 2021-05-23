@@ -165,19 +165,29 @@
 
 .boxes__box {
   font-family: "Raleway", sans-serif;
-  padding: 39px 70px;
+  list-style: none;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.boxes__box:not(:last-child) {
+.boxes__item {
+  padding: 39px 70px 38px 70px;
+}
+
+.boxes__item:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.boxes__box:hover {
+.boxes__item:hover {
   -webkit-box-shadow: 0 0 20px #f7880a;
           box-shadow: 0 0 20px #f7880a;
   background-color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+  .boxes__item {
+    margin: 0 auto;
+  }
 }
 
 .boxes__link {
@@ -233,17 +243,7 @@
   margin-bottom: 50px;
 }
 
-.first-line a:hover img {
-  -webkit-box-shadow: 0 0 20px #ff6033;
-          box-shadow: 0 0 20px #ff6033;
-}
-
-.second-linea a:hover img {
-  -webkit-box-shadow: 0 0 20px #ff6033;
-          box-shadow: 0 0 20px #ff6033;
-}
-
-.button-gallery {
+.gallery__button {
   background: #5585a2;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -260,7 +260,7 @@
   cursor: pointer;
 }
 
-.button-gallery:hover {
+.gallery__button:hover {
   -webkit-box-shadow: 0 0 25px #ee850d;
           box-shadow: 0 0 25px #ee850d;
   background: #4f8eb6;

@@ -20,17 +20,10 @@
   line-height: 20px;
   margin-bottom: 50px;
 }
-.first-line a img {
+.gallery__img {
 }
-.first-line a:hover img {
-  box-shadow: 0 0 20px #ff6033;
-}
-.second-linea {
-}
-.second-linea a:hover img {
-  box-shadow: 0 0 20px #ff6033;
-}
-.button-gallery {
+
+.gallery__button {
   background: $horizon;
   color: $white;
   font-family: $raleway;
@@ -46,7 +39,7 @@
   transition: all 0.5s ease-in;
   cursor: pointer;
 }
-.button-gallery:hover {
+.gallery__button:hover {
   box-shadow: 0 0 25px rgb(238, 133, 13);
   background: #4f8eb6;
 }
