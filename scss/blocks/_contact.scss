@@ -1,0 +1,104 @@
+.contact {
+  font-family: $raleway;
+  color: $text-black;
+  background: url("./../images/img/BG-contact.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-style: normal;
+  padding-top: 92px;
+  padding-bottom: 93px;
+}
+.contact h1 {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  margin-bottom: 30px;
+}
+.contact p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+.field {
+  display: flex;
+
+  &__formularz {
+  }
+}
+
+.formularz input {
+  font-family: $raleway;
+  color: $white;
+  background: rgba(0, 196, 196, 0.5);
+  border: none;
+  padding: 16px 422px 16px 17px;
+}
+.formularz input:not(:last-child) {
+  margin-bottom: 15px;
+}
+input:hover,
+:active,
+:focus {
+  outline: 0;
+}
+.formularz input:active {
+  border-left: 3px ridge rgb(10, 97, 124);
+  background: rgba(41, 218, 50, 0.5);
+}
+.bigtext {
+  font-family: $raleway;
+  color: $white;
+  background: rgba(0, 196, 196, 0.5);
+  border: none;
+  padding: 16px 217px 216px 22px;
+
+  height: 250px;
+}
+.but__send {
+  background-color: $blue;
+  font-family: $raleway;
+  color: white;
+  border: none;
+  padding: 15px 45px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+.but__send:hover {
+  background-color: #5585a2;
+  box-shadow: 0 0 20px rgb(13, 185, 238);
+}
+.dozwon {
+  justify-content: flex-start;
+  text-align: left;
+  cursor: pointer;
+  @media (max-width: 991.98px) {
+    margin-bottom: 30px;
+  }
+  @media (max-width: $sm) {
+    flex-direction: row;
+  }
+}
+.addres {
+  font-family: $raleway;
+  counter-reset: $text-black;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  @media (max-width: $sm) {
+    text-align: center;
+  }
+}
+.addres span {
+  font-weight: bold;
+}
+.addres:not(:last-child) {
+  margin-bottom: 16px;
+}

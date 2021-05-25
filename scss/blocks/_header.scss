@@ -1,0 +1,97 @@
+.header {
+  background: url("./../images/img/BG-mleko.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 65px;
+  padding-bottom: 70px;
+  &__freash {
+  }
+  &__scroll img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 257px;
+    margin-bottom: 70px;
+  }
+  @media (max-width: 991.98px) {
+    padding-bottom: 40px;
+  }
+}
+
+.logo {
+  &__img {
+    display: block;
+    margin-bottom: 228px;
+  }
+}
+.manu {
+  margin-top: -125px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__spisok {
+    list-style: none;
+    display: block;
+    transition: all 0.5s ease;
+  }
+  &__spisok:not(:last-child) {
+    padding-right: 36px;
+  }
+  &__link {
+    font-family: $raleway;
+    color: $text-black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  &__link:hover {
+    text-decoration: overline 3px $orange;
+    text-shadow: 1px 2px 2px rgb(255, 156, 7);
+  }
+  @media (max-width: 991.98px) {
+    display: none;
+  }
+}
+
+.fresh {
+  font-family: $raleway;
+  color: $text-black;
+}
+.fresh h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 15px;
+}
+.fresh p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 28px;
+}
+.button {
+  &_1 {
+    background-color: $orange;
+    font-family: $raleway;
+    color: white;
+    border: none;
+    padding: 16px 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 367px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+  }
+  &_1:hover {
+    background-color: orangered;
+    box-shadow: 0 0 20px rgb(238, 133, 13);
+    color: $lighter-gray;
+  }
+}

@@ -1,0 +1,59 @@
+.subscribe {
+  background: url("./../images/img/BG-subscribe.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 144px;
+  padding-bottom: 144px;
+
+  font-family: $raleway;
+  color: $text-black;
+  @media (max-width: 991.98px) {
+    background: none;
+  }
+}
+.subscribe h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 20px;
+}
+.subscribe p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.form {
+}
+.input {
+  width: 570px;
+  padding: 19px 417px 19px 15px;
+  border: 1px solid #262626;
+  color: rgba(0, 0, 0, 0.5);
+}
+.knopka {
+  font-family: $raleway;
+  color: $white;
+  background: $green;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 16px 26px;
+  border: none;
+
+  display: flex;
+  transition: all 0.5s ease-in;
+  @media (max-width: 991.98px) {
+    margin-top: 30px;
+
+    justify-content: center;
+  }
+}
+.knopka:hover {
+  background: #aebe1e;
+  box-shadow: 0 0 15px #81a80b;
+}
